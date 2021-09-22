@@ -33,7 +33,7 @@ public class Geometrics {
         //System.out.println("10.0/2.0/1.0: " + getVolume(10.0, 2.0, 1.0));
         /*
             z is our height
-            y is our radiusf
+            y is our radius
          */
 
         System.out.println("---------------------------------");
