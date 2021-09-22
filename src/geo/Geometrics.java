@@ -42,7 +42,7 @@ public class Geometrics {
 
         System.out.println("---------------------------------");
         System.out.println("Sphere with cylinder");
-        System.out.println("Spere with cylinder: " + getSpereWithCylinder(3.0));
+        System.out.println("Spere with cylinder: " + getSphereWithCylinder(3.0));
 
         System.out.println("Ungula");
         System.out.println("Ungula: " + getUngula(45, 89));
@@ -52,7 +52,7 @@ public class Geometrics {
         return (Math.PI * z * (3 * Math.pow(y, 2) + 3 * Math.pow(x, 2) + Math.pow(z, 2))) / 6;
     }
 
-    public static double getSpereWithCylinder(double z) {
+    public static double getSphereWithCylinder(double z) {
         return Math.PI * Math.pow(z, 3) / 6;
     }
 
